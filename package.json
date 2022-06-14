@@ -1,0 +1,23 @@
+{
+  "name": "brja-portfoliov2",
+  "version": "1.0.0",
+  "description": "This is a site that focuses on providing a portfolio template for assorted works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pldbrja/brja-portfoliov2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pldbrja/brja-portfoliov2/issues"
+  },
+  "homepage": "https://github.com/pldbrja/brja-portfoliov2#readme",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "vue": "^3.2.37"
+  }
+}
