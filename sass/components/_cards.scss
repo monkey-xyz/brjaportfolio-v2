@@ -1,6 +1,60 @@
 .entry {
-    background: rgb(132, 184, 132);
-    width: 20%;
-    height: 50rem;
-    display: inline-flex;
+    background: radial-gradient(circle, rgb(124, 160, 100) 0%, rgb(54, 82, 35) 100%);
+    width: 49.5rem;
+    height: 20rem;
+    transition: height .5s;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        object-fit: fit;
+        width: 100%;
+        height: 30rem;
+        margin: 0 auto;
+        transition: all .4s;
+    }
+
+    &:nth-child(1) {
+        width: 100%;
+        align-self: flex-start;
+        flex: 5 100%;
+        height: 30rem;
+
+        img {
+            height: 40rem;
+        }
+
+        &:hover {
+            height: 40rem;
+            transition: height .5s;
+
+            img {
+                height: 40rem;
+                transition: all .4s;
+            }
+        }
+    }
+
+    &:hover {
+        height: 30rem;
+        z-index: 1;
+        transition: height .5s;
+
+        img {
+            height: 30rem;
+            transition: all .4s;
+            opacity: .8;
+        }
+    }
 };
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    padding: .5rem 5rem;
+    font-size: 3vh;
+    width: 60%;
+    border-top-left-radius: 20px;
+}

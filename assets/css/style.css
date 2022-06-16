@@ -1,14 +1,247 @@
-.entry {
-  background: rgb(132, 184, 132);
-  width: 20%;
-  height: 50rem;
-  display: inline-flex;
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Righteous&display=swap");
+.namePR span:nth-child(2) {
+  animation-delay: 0.5s;
 }
 
-#wk {
+.namePR span:nth-child(3) {
+  animation-delay: 0.75s;
+}
+
+.namePR span:nth-child(4) {
+  animation-delay: 1s;
+}
+
+.namePR span:nth-child(5) {
+  animation-delay: 1.25s;
+}
+
+.namePR span:nth-child(6) {
+  animation-delay: 1.5s;
+}
+
+.namePR span:nth-child(7) {
+  animation-delay: 1.75s;
+}
+
+.namePR span:nth-child(8) {
+  animation-delay: 2s;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(20, 20, 20);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(10, 10, 10);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(48, 48, 48);
+}
+
+.division .namePR {
+  position: relative;
+  top: 100%;
+  font-family: "Righteous", cursive;
+  color: rgb(20, 20, 20);
+  animation: divUp 0.5s forwards;
+}
+.division .namePR span {
+  opacity: 0;
+}
+
+span {
+  animation: fixture 1s forwards;
+}
+
+nav a {
+  color: white;
+  margin: auto 1rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: gray;
+  transition: color 0.2s;
+}
+
+.outfit-text {
+  font-family: "Outfit", sans-serif;
+}
+
+.arial-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 4vh;
+  margin: 0 auto;
+}
+
+@keyframes fixture {
+  to {
+    font-size: 20vh;
+    opacity: 1;
+  }
+}
+@keyframes divUp {
+  to {
+    top: 55%;
+  }
+}
+.entry {
+  background: radial-gradient(circle, rgb(124, 160, 100) 0%, rgb(54, 82, 35) 100%);
+  width: 49.5rem;
+  height: 20rem;
+  transition: height 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+.entry img {
+  object-fit: fit;
+  width: 100%;
+  height: 30rem;
+  margin: 0 auto;
+  transition: all 0.4s;
+}
+.entry:nth-child(1) {
+  width: 100%;
+  align-self: flex-start;
+  flex: 5 100%;
+  height: 30rem;
+}
+.entry:nth-child(1) img {
+  height: 40rem;
+}
+.entry:nth-child(1):hover {
+  height: 40rem;
+  transition: height 0.5s;
+}
+.entry:nth-child(1):hover img {
+  height: 40rem;
+  transition: all 0.4s;
+}
+.entry:hover {
+  height: 30rem;
+  z-index: 1;
+  transition: height 0.5s;
+}
+.entry:hover img {
+  height: 30rem;
+  transition: all 0.4s;
+  opacity: 0.8;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  padding: 0.5rem 5rem;
+  font-size: 3vh;
+  width: 60%;
+  border-top-left-radius: 20px;
+}
+
+.stylize {
+  border-radius: 40%;
+  height: auto;
+  width: 25%;
+  transition: all 0.4s;
+}
+
+.stylize:hover {
+  box-shadow: 4px 4px 10px rgb(0, 0, 0);
+  transition: all 0.4s;
+  transform: translate(-6px, -6px);
+}
+
+footer {
+  color: white;
+  text-align: right;
+}
+
+.dark {
+  background: black;
+  font-size: 3vh;
+}
+
+section {
+  margin: 4rem auto;
+  background: rgb(20, 20, 20);
+  z-index: 2;
+  color: white;
+  width: 100rem;
+  position: relative;
+}
+
+.section-title {
+  text-align: right;
+  margin: 2rem auto;
+  right: 0;
+  width: 80%;
+  border-bottom: white solid 2px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.inner-text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 3vh;
+}
+
+.flex {
   display: flex;
-  flex: row;
   flex-wrap: wrap;
+}
+
+nav {
+  text-align: right;
+  top: 0;
+  right: 0;
+  background: rgb(20, 20, 20);
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+}
+
+.division {
+  background: url("../../assets/images/image-anvyfrdo.png");
+  height: 40vh;
+  width: 100%;
+  background-attachment: fixed;
+  position: relative;
+  overflow: none;
+  z-index: -1;
+  border-bottom: rgb(20, 20, 20) 0.4rem solid;
+  box-shadow: 0 0.5rem 0 rgb(51, 51, 51), inset 0 -0.5rem 7rem rgb(54, 82, 35);
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.8rem 0.05rem;
 }
 
 /*# sourceMappingURL=style.css.map */

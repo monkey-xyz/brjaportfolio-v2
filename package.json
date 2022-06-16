@@ -15,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/pldbrja/brja-portfoliov2/issues"
   },
-  "homepage": "https://github.com/pldbrja/brja-portfoliov2#readme",
-  "dependencies": {
-    "animejs": "^3.2.1",
-    "vue": "^3.2.37"
-  }
+  "homepage": "https://github.com/pldbrja/brja-portfoliov2#readme"
 }

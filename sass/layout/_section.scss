@@ -1,5 +1,66 @@
-#wk {
+.dark {
+    background: black;
+    font-size: 3vh;
+}
+
+section {
+    margin: 4rem auto;
+    background: rgb(20, 20, 20);
+    z-index: 2;
+    color: white;
+    width: 100rem;
+    position: relative;
+}
+
+.section-title {
+    text-align: right;
+    margin: 2rem auto;
+    right: 0;
+    width: 80%;
+    border-bottom: white solid 2px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.inner-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3vh;
+}
+
+.flex {
     display: flex;
-    flex: row;
     flex-wrap: wrap;
+}
+
+nav {
+    text-align: right;
+    top: 0;
+    right: 0;
+    background: rgb(20, 20, 20);
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+
+.division {
+    background: url('../../assets/images/image-anvyfrdo.png');
+    height: 40vh;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+    overflow: none;
+    z-index: -1;
+    border-bottom: rgb(20, 20, 20) .4rem solid;
+    box-shadow: 0 .5rem 0 rgb(51, 51, 51),
+    inset 0 -.5rem 7rem rgb(54, 82, 35);
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: .8rem .05rem;
 }

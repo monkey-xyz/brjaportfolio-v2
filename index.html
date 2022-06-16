@@ -4,65 +4,112 @@
 
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/5efd198a8f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 
 </head>
     <body>
-        <nav>
+        <nav class="dark outfit-text">
+            <a href="#TOP">Home</a>
             <a href="#AB">About</a>
             <a href="#WK">Works</a>
             <a href="#CT">Contact</a>
         </nav>
 
-        <section id="AB">
-            <h1>Mia Borja</h1>
+        <div class="division" id="TOP">
+            <div class="namePR">
+                <span>M</span><span>i</span><span>a</span> <span>B</span><span>o</span><span>r</span><span>j</span><span>a</span></div>
+        </div>
 
-            <div class="inner-text part">
-                <p>Armed with at least 5 Fridays of Coding Club and a bunch of static Neocities pages, I am a web developer who has come a long way since then (kind of).</p>
+        <section id="AB">
+            <div class="section-title">
+                <h2 class="outfit-text">About</h2>
             </div>
 
-            <div class="part" id="icons">
+            <div class="icon">
+                <img class="stylize" src="./assets/images/placeholder.png">
+            </div>
+
+            <div class="inner-text arial-text">
+                <p>Armed with at least 5 Fridays of Coding Club and a handful of static Neocities pages, I am a web developer who has come a long way since high school. I started as a hobby, but awakened to a new love of CSS through SASS.</p>
             </div>
         </section>
 
         <section id="WK">
-            <div class="part works">
+            <div class="section-title">
+                <h2 class="outfit-text">Works</h2>
+            </div>
+
+            <div class="works arial-text">
                 <div class="entry code">
-                    <div class="caption">
+                    <a href="https://community-closet-206.herokuapp.com/" target="_blank">
+                        <img src="./assets/images/ccss.png" alt="A screenshot of the site. It is warm colored, with">
+                    </a>
+                    <div class="caption outfit-text">
                         <h3>Community Closet</h3>
                     </div>
                 </div>
 
                 <div class="entry code">
-                    <div class="caption">
-                        <h3>Grandma's Recipe Box</h3>
+                    <a href="https://nbulger1.github.io/my-recipes/" target="_blank">
+                        <img src="./assets/images/grandmass.png" alt="A screenshot of the site. It is warm colored, with">
+                    </a>
+                    <div class="caption outfit-text">
+                        <h3>My Grandma's Recipe Box</h3>
                     </div>
                 </div>
 
                 <div class="entry code">
-                    <div class="caption">
+                    <a href="https://pldbrja.github.io/weather-forecast/" target="_blank">
+                        <img src="./assets/images/dashboardss.png" alt="A screenshot of the site. It is warm colored, with">
+                    </a>
+                    <div class="caption outfit-text">
                         <h3>Weather Dashboard</h3>
                     </div>
                 </div>
 
                 <div class="entry code">
-                    <div class="caption">
+                    <a href="https://pldbrja.github.io/password-gener8tor/" target="_blank">
+                        <img src="./assets/images/passwordss.png" alt="A screenshot of the site. It is warm colored, with">
+                    </a>
+                    <div class="caption outfit-text">
                         <h3>Password Generator</h3>
+                    </div>
+                </div>
+
+                <div class="entry code">
+                    <a href="https://pldbrja.github.io/day-2-day-planner/" target="_blank">
+                        <img src="./assets/images/workdayss.png" alt="A screenshot of the site. It is warm colored, with">
+                    </a>
+                    <div class="caption outfit-text">
+                        <h3>Work Day Scheduler</h3>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="CT">
-            <p>I am open for any kind of inquiry.</p>
+        <section id="CT" class="arial-text">
+            <div class="section-title">
+                <h2 class="outfit-text">Contact</h2>
+            </div>
 
-            <ul>
-                <li>Github</li>
-                <li>LinkedIn</li>
-                <li>Email</li>
-            </ul>
+            <div class="flex">
+                <p>I am open for any kind of inquiry.</p>
+
+                <ul>
+                    <li>Github</li>
+                    <li>LinkedIn</li>
+                    <li>Email</li>
+                </ul>
+            </div>
         </section>
+
+        <footer class="dark outfit-text">
+            (C) 2022 Mia Borja
+        </footer>
+
+        <script src="./assets/js/nav.js"></script>
     </body>
 </html>

@@ -1,0 +1,9 @@
+@for $i from 2 through 8 {
+    .namePR {
+        span {
+            &:nth-child(#{$i}) {
+                animation-delay: $i * .25s;
+            }
+        }
+    }
+}
