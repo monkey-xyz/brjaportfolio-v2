@@ -1,6 +1,6 @@
 .entry {
-    background: radial-gradient(circle, rgb(124, 160, 100) 0%, rgb(54, 82, 35) 100%);
-    width: 49.5rem;
+    background: radial-gradient(circle, rgb(200, 231, 179) 0%, rgb(42, 77, 19) 100%);
+    width: 49.5%;
     height: 20rem;
     transition: height .5s;
     position: relative;
@@ -43,7 +43,7 @@
         img {
             height: 30rem;
             transition: all .4s;
-            opacity: .8;
+            opacity: .6;
         }
     }
 };

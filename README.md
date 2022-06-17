@@ -17,3 +17,5 @@ The current version incorporates SASS for extra control over organization both w
 ## Credits
 
 * [SiteOrigin](https://siteorigin.com/) for their [Background Image Generator](https://bg.siteorigin.com/)
+
+* [Graphic Placeholder](https://freesvg.org/graphic-placeholder) from FreeSVG
