@@ -64,3 +64,46 @@ nav {
     justify-content: space-between;
     gap: .8rem .05rem;
 }
+
+.information {
+    font-size: 3vh;
+}
+
+.contact-list {
+    margin: 0 auto;
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            padding: 0 4rem;
+            border-bottom: white solid 2px;
+            position: relative;
+            transition: all .3s;
+
+            &:hover {
+                transition: all .3s;
+                transform: translateY(1rem);
+                box-shadow: 0 -1rem rgb(14, 14, 14);
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(172, 172, 172);
+                }
+
+                &:active {
+                    color: rgb(65, 107, 62);
+                }
+
+                &:visited {
+                    color: rgb(88, 88, 88);
+                }
+            }
+        }
+    }
+}

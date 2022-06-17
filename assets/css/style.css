@@ -29,14 +29,13 @@
 
 body {
   margin: 0;
+  opacity: 0;
+  background: rgb(20, 20, 20);
+  transition: all 0.8s;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  background: rgb(20, 20, 20);
 }
 
 ::-webkit-scrollbar {
@@ -242,6 +241,42 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 0.8rem 0.05rem;
+}
+
+.information {
+  font-size: 3vh;
+}
+
+.contact-list {
+  margin: 0 auto;
+}
+.contact-list ul {
+  list-style: none;
+}
+.contact-list ul li {
+  display: inline-block;
+  padding: 0 4rem;
+  border-bottom: white solid 2px;
+  position: relative;
+  transition: all 0.3s;
+}
+.contact-list ul li:hover {
+  transition: all 0.3s;
+  transform: translateY(1rem);
+  box-shadow: 0 -1rem rgb(14, 14, 14);
+}
+.contact-list ul li a {
+  color: white;
+  text-decoration: none;
+}
+.contact-list ul li a:hover {
+  color: rgb(172, 172, 172);
+}
+.contact-list ul li a:active {
+  color: rgb(65, 107, 62);
+}
+.contact-list ul li a:visited {
+  color: rgb(88, 88, 88);
 }
 
 /*# sourceMappingURL=style.css.map */
